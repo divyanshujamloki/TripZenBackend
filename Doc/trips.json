@@ -1,0 +1,184 @@
+[
+  {
+    "id": "trip-1",
+    "slug": "rishikesh-adventure-weekend",
+    "title": "Rishikesh Adventure Weekend",
+    "location": "Rishikesh",
+    "startDate": "2026-06-20",
+    "endDate": "2026-06-22",
+    "pricePerPerson": 1500,
+    "currency": "INR",
+    "totalSeats": 40,
+    "bookedSeats": 12,
+    "status": "upcoming",
+    "description": "Escape the city for an action-packed weekend in Rishikesh. River rafting, bonfire nights, and curated group fun — all at a price that won't break the bank.",
+    "coverImage": "/trips/rishikesh.jpg",
+    "gallery": [
+      { "type": "image", "url": "/trips/rishikesh.jpg", "caption": "River rafting on the Ganges" },
+      { "type": "image", "url": "/trips/rishikesh-camp.jpg", "caption": "Bonfire & music night" }
+    ],
+    "inclusions": [
+      "Delhi ↔ Rishikesh Traveller",
+      "2 Nights Hotel Stay",
+      "Breakfast",
+      "Lunch",
+      "Dinner",
+      "River Rafting",
+      "Bonfire & Music",
+      "Trip Coordinator"
+    ],
+    "exclusions": [
+      "Personal Expenses",
+      "Extra Activities",
+      "Insurance"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Departure & Arrival",
+        "activities": [
+          "Departure from Delhi",
+          "Reach Rishikesh",
+          "Hotel Check-in",
+          "Lunch",
+          "Local sightseeing",
+          "Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Adventure Day",
+        "activities": [
+          "Breakfast",
+          "River rafting",
+          "Lunch",
+          "Camp activities",
+          "Bonfire",
+          "Dinner"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Return Journey",
+        "activities": [
+          "Breakfast",
+          "Checkout",
+          "Return to Delhi"
+        ]
+      }
+    ],
+    "whatsappGroupLink": "https://chat.whatsapp.com/example-rishikesh",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "trip-2",
+    "slug": "manali-snow-retreat",
+    "title": "Manali Snow Retreat",
+    "location": "Manali, Himachal Pradesh",
+    "startDate": "2026-01-15",
+    "endDate": "2026-01-18",
+    "pricePerPerson": 2200,
+    "currency": "INR",
+    "totalSeats": 30,
+    "bookedSeats": 28,
+    "status": "upcoming",
+    "description": "Experience the magic of Manali in winter. Snow-capped peaks, cozy stays, and group adventures in the Himalayas.",
+    "coverImage": "/trips/manali.jpg",
+    "gallery": [
+      { "type": "image", "url": "/trips/manali.jpg", "caption": "Snowy Manali views" }
+    ],
+    "inclusions": [
+      "Delhi ↔ Manali Volvo",
+      "3 Nights Hotel Stay",
+      "All Meals",
+      "Solang Valley Visit",
+      "Trip Coordinator"
+    ],
+    "exclusions": [
+      "Personal Expenses",
+      "Adventure sports extras",
+      "Insurance"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Journey to Manali",
+        "activities": ["Overnight Volvo from Delhi", "Reach Manali", "Check-in & rest"]
+      },
+      {
+        "day": 2,
+        "title": "Solang Valley",
+        "activities": ["Breakfast", "Solang Valley excursion", "Lunch", "Local market", "Dinner"]
+      },
+      {
+        "day": 3,
+        "title": "Explore Manali",
+        "activities": ["Breakfast", "Hadimba Temple", "Old Manali cafes", "Dinner"]
+      },
+      {
+        "day": 4,
+        "title": "Return",
+        "activities": ["Breakfast", "Checkout", "Volvo back to Delhi"]
+      }
+    ],
+    "whatsappGroupLink": "https://chat.whatsapp.com/example-manali",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "trip-3",
+    "slug": "goa-beach-bash",
+    "title": "Goa Beach Bash",
+    "location": "North Goa",
+    "startDate": "2026-03-07",
+    "endDate": "2026-03-10",
+    "pricePerPerson": 1800,
+    "currency": "INR",
+    "totalSeats": 35,
+    "bookedSeats": 8,
+    "status": "upcoming",
+    "description": "Sun, sand, and good vibes. A budget-friendly Goa trip with beach hopping, water sports, and unforgettable nights.",
+    "coverImage": "/trips/goa.jpg",
+    "gallery": [
+      { "type": "image", "url": "/trips/goa.jpg", "caption": "North Goa beaches" }
+    ],
+    "inclusions": [
+      "Delhi ↔ Goa Flight (group fare)",
+      "3 Nights Stay",
+      "Breakfast daily",
+      "Beach hopping",
+      "Trip Coordinator"
+    ],
+    "exclusions": [
+      "Lunch & Dinner",
+      "Water sports",
+      "Personal expenses"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Goa",
+        "activities": ["Flight to Goa", "Hotel check-in", "Calangute beach sunset"]
+      },
+      {
+        "day": 2,
+        "title": "Beach Day",
+        "activities": ["Breakfast", "Baga & Anjuna beaches", "Water sports (optional)", "Night market"]
+      },
+      {
+        "day": 3,
+        "title": "Explore Goa",
+        "activities": ["Breakfast", "Fort Aguada", "Candolim beach", "Group dinner"]
+      },
+      {
+        "day": 4,
+        "title": "Departure",
+        "activities": ["Breakfast", "Checkout", "Flight to Delhi"]
+      }
+    ],
+    "whatsappGroupLink": "https://chat.whatsapp.com/example-goa",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  }
+]

@@ -3,21 +3,17 @@ const cors = require('cors');
 
 const app = express();
 
-// Middleware
 app.use(cors());
 app.use(express.json());
 
-// Routes
-const apiRoutes = require('./routes/index');
-app.use('/api', apiRoutes);
+app.use('/api', require('./routes/index'));
 
 app.get('/', (req, res) => {
-    res.json({ message: 'Welcome to TourishSite Backend API' });
+  res.json({ message: 'TripZen Backend API v1' });
 });
 
-// Health check
 app.get('/health', (req, res) => {
-    res.status(200).json({ status: 'OK', timestamp: new Date().toISOString() });
+  res.status(200).json({ status: 'OK', timestamp: new Date().toISOString() });
 });
 
 module.exports = app;
