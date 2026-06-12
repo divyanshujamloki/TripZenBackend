@@ -7,5 +7,5 @@ router.use('/bookings', require('./bookings.routes'));
 router.use('/payments', require('./payments.routes'));
 router.use('/contact', require('./contact.routes'));
 router.use('/admin', require('./admin.routes'));
-
+router.use('/media-uploads', require('./media-uploads.routes'));
 module.exports = router;

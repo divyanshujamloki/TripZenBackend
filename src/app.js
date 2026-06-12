@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
   res.json({ message: 'TripZen Backend API v1' });
 });
 
-app.get('/health', (req, res) => {
+app.get('/api/health', (req, res) => {
   res.status(200).json({ status: 'OK', timestamp: new Date().toISOString() });
 });
 
