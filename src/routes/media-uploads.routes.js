@@ -3,7 +3,7 @@ const { protect } = require('../middleware/auth');
 const upload = require('../middleware/upload');
 const media = require('../controllers/media.controller');
 
-// router.use(protect);
+router.use(protect);
 
 router.post('/', (req, res, next) => {
   upload.single('file')(req, res, (err) => {
@@ -11,6 +11,7 @@ router.post('/', (req, res, next) => {
     next();
   });
 }, media.uploadMedia);
+
 router.get('/', media.listMedia);
 router.get('/:id', media.getMedia);
 router.delete('/:id', media.deleteMedia);
